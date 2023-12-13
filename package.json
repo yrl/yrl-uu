@@ -22,12 +22,9 @@
   "homepage": "https://github.com/yrl/yrl-uu",
   "license": "MIT",
   "devDependencies": {
-
-    "css-loader": "^5.2.6",
-    
+    "css-loader": "^5.2.6"
   },
   "dependencies": {
-    
     "uuid": "^8.3.2"
   }
 }
