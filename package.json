@@ -15,6 +15,10 @@
     "build": "rollup -c -w",
     "serve": "rollup -c -w"
   },
+  "files": [
+    "/dist",
+    "/es"
+   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/yrl/yrl-uu"
