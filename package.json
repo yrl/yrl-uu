@@ -1,6 +1,6 @@
 {
   "name": "yrl-uu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "yrl",
   "description": "Online graphics editing tool lets create, edit images using HTML5 technologies.",
   "keywords": [
@@ -18,7 +18,7 @@
   "files": [
     "/dist",
     "/es"
-   ],
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/yrl/yrl-uu"
@@ -38,5 +38,4 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
-
 }
