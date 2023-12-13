@@ -10,10 +10,10 @@
     "layers",
     "effects"
   ],
+  "main": "dist/index.js",
   "scripts": {
-    "server": "webpack serve --mode development --env development --open",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "rollup -c -w",
+    "serve": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -21,13 +21,18 @@
   },
   "homepage": "https://github.com/yrl/yrl-uu",
   "license": "MIT",
-  "devDependencies": {
-    "css-loader": "^5.2.6"
-  },
   "dependencies": {
-    "uuid": "^8.3.2"
+    "@babel/preset-env": "^7.23.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "rollup": "^4.8.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
+
 }
